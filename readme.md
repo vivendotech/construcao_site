@@ -1,8 +1,8 @@
 
-
+<!-- 
 - INSTALAR O HUGO (https://gohugo.io/)
 - BAIXAR O TEMPLATE INICIAL (https://themes.gohugo.io/minimal-bootstrap-hugo-theme/)
-- HOSPEDAR NO NETLIFY (https://minimal-bootstrap-hugo-theme.netlify.com/hugoisforlovers/)
+- HOSPEDAR NO NETLIFY (https://minimal-bootstrap-hugo-theme.netlify.com/hugoisforlovers/) -->
 
 
 
@@ -11,6 +11,12 @@
 Para instalar o hugo no windows é necessário baixar o executave no [site](https://github.com/gohugoio/hugo/releases)
 
 Descompacte o executavel em um pasta e adicione o caminho dessa pasta nas variaveis do sistema,
+
+# Inicializando o repositorio
+
+```
+hugo new site nome_site
+```
 
 
 # Instalar o thema
@@ -34,4 +40,11 @@ hugo server
 PAra criar uma nova pagina  digite o comando:
 ```
 hugo new a.md
+```
+
+
+# Gerando um site estatico
+Gera os arquivos estatico dentro da pasta public
+```
+hugo
 ```
