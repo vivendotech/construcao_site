@@ -1,0 +1,30 @@
+{{ define "main" }}
+    
+    {{.Params.parametro1}}
+    {{.Content}}
+
+
+
+
+{{ end }}
+
+
+
+
+{{ define "lado" }}
+{{ $data := .Params.vivencia}}
+    {{.Params.vivencia }}
+    {{ range .Site.Data.conteudo }}
+        {{if eq .vivencia  $data}}
+        <br> entrou no if
+        {{range  $elem_val :=.posts}}
+            {{ $elem_val}}
+        {{end}}
+    {{else}}
+        {{ $data }}
+       <br> oi mundo
+    {{end}}
+    {{end}}
+{{ end}}
+   
+        
