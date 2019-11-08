@@ -1,4 +1,0 @@
-baseURL = "https://vivendotech.github.io/construcao_site/"
-publishDir = "docs"
-languageCode = "en-us"
-title = "Vivendo as tecnologias"
