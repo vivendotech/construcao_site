@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Introdução ao python on Vivendo as tecnologias</title>
+    <link>http://vivendo.tech/dw/python/</link>
+    <description>Recent content in Introdução ao python on Vivendo as tecnologias</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 06 Nov 2019 21:43:24 -0300</lastBuildDate>
+    
+	<atom:link href="http://vivendo.tech/dw/python/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Inicio</title>
+      <link>http://vivendo.tech/dw/python/inicio/</link>
+      <pubDate>Wed, 06 Nov 2019 21:32:02 -0300</pubDate>
+      
+      <guid>http://vivendo.tech/dw/python/inicio/</guid>
+      <description>12321
+oi mundo
+  </description>
+    </item>
+    
+    <item>
+      <title>Inicio2123</title>
+      <link>http://vivendo.tech/dw/python/inici2/</link>
+      <pubDate>Wed, 06 Nov 2019 21:32:02 -0300</pubDate>
+      
+      <guid>http://vivendo.tech/dw/python/inici2/</guid>
+      <description>12321
+oi mundo
+  </description>
+    </item>
+    
+  </channel>
+</rss>

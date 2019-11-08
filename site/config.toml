@@ -1,0 +1,4 @@
+baseURL = "http://vivendo.tech"
+publishDir = "docs"
+languageCode = "en-us"
+title = "Vivendo as tecnologias"
