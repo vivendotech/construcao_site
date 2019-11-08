@@ -1,8 +1,8 @@
 ---
-title: "Svelte"
-date: 2019-11-06T21:43:19-03:00
-draft: true
+title: "Introdução do Svelte"
+date: 2019-11-06T21:43:24-03:00
+draft: false
+vivencia: "svelte"
 ---
 
-Aprenda svelte em 10 minutos
-
+123312

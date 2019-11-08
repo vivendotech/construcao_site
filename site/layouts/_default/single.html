@@ -1,4 +1,70 @@
-{{ define "main" }}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="/single.css">
+</head>
+<body>
+        <header>
+                
+                <nav class="flex_cont">
+                    
+                        <a href="/">Página inicial</a>
+                        <a href="/categorias">Categorias</a>
+                        <a href="/contato">Contato</a>
+                        <a href="/sobre-mim">Sobre mim</a>
+                        
+                    
+                </nav>
+            </header>
+
+    
+    
+    <main class="div_cont">
+            <section >
+                    {{.Content}}
+
+
+            </section>
+            <aside>
+                    {{ $data := .Params.vivencia}}
+                    {{.Params.vivencia }}
+                    {{ range .Site.Data.conteudo }}
+                        {{if eq .vivencia  $data}}
+                        <br> entrou no if
+                        {{range  $elem_val :=.posts}}
+                            {{ $elem_val}}
+                        {{end}}
+                    {{else}}
+                        {{ $data }}
+                       <br> oi mundo
+                    {{end}}
+                    {{end}}
+
+                
+            </aside>
+
+
+    </main>
+
+   
+
+
+</body>
+</html>
+
+    <!-- {{ block "main" .}}
+
+
+
+    {{ end }} -->
+
+
+
+
+<!-- {{ define "main" }}
     
     {{.Params.parametro1}}
     {{.Content}}
@@ -26,5 +92,5 @@
     {{end}}
     {{end}}
 {{ end}}
-   
+    -->
         

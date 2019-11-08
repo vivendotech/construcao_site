@@ -1,0 +1,39 @@
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* #div_cont {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+} */
+
+
+#flex_cont {
+    display: flex;
+    justify-content: center;
+}
+
+
+main{
+    display: flex;
+    width: 80%;
+
+    background-color: red;
+}
+section {
+
+    flex: 70%;
+  background-color: yellow;
+}
+
+aside {
+    flex: 30%;
+
+    background-color: teal;
+
+}
+

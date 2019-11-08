@@ -1,16 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
 
-{{ define "main" }}
-        {{.Content}}
-        {{ range .Pages }}
+    <link rel="stylesheet" href="/list.css">
+</head>
+<body>
+    
+    <main class="div_cont">
+            <section >
+
+                    <div class="vivencia">
+                            {{ range .Pages }}
+                        
+                        <ul>
+                            <li><a href="{{.URL}}">{{.Title}}</a></li>
+                       </ul>
+                            {{end}}
+            
+                   </div>
+
+
+
+            </section>
+            <aside>
+                
+            </aside>
+
+
+    </main>
+
+   
+    <!-- {{ block "main" .}}
+
+
+
+    {{ end }} -->
+
+
+
+
+</body>
+</html>
+
+
+<!-- {{ define "main" }}
+
+       <div class="vivencia">
+                {{ range .Pages }}
             
             <ul>
-                    <li><a href="{{.URL}}">{{.Title}}</a></li>
-                </ul>
-        {{end}}
+                <li><a href="{{.URL}}">{{.Title}}</a></li>
+           </ul>
+                {{end}}
+
+       </div>
+       
+
+        {{.Content}}
 
 
 {{ end }}
    
-        
+         -->
     
     
