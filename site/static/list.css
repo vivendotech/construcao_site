@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+section{
+    display: flex;
+
+}
+
+.vivencia {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 10px 24px 24px 24px;
+    margin: 3px;
+    background-color: tomato;
+    border-style: solid;
+}
+
+.item {
+    align-items: flex-start;
+    padding: 10px;
+
+}
+
+.descricao_vivencia {
+    background-color: turquoise;
+
+}
+.descricao_curso {
+    background-color: violet;
+
+}

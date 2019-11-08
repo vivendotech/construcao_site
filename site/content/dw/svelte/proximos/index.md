@@ -3,6 +3,8 @@ title: "Proximos"
 date: 2019-11-06T21:43:24-03:00
 draft: false
 vivencia: "svelte"
+descricao: "123123"
+tempo: "10 min"
 ---
 # Tutoria 1
 Como inicializar um projeto envolvendo o svelte.

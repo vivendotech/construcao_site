@@ -3,6 +3,8 @@ title: "Introdução"
 date: 2019-11-06T21:43:24-03:00
 draft: false
 vivencia: "svelte"
+descricao: "123123"
+tempo: "10 min"
 ---
 
 # Como instalar o svelte
