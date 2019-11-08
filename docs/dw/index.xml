@@ -2,13 +2,13 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introdução do Svelte on Vivendo as tecnologias</title>
-    <link>http://vivendo.tech/dw/</link>
+    <link>https://vivendotech.github.io/construcao_site/dw/</link>
     <description>Recent content in Introdução do Svelte on Vivendo as tecnologias</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 06 Nov 2019 21:43:24 -0300</lastBuildDate>
     
-	<atom:link href="http://vivendo.tech/dw/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vivendotech.github.io/construcao_site/dw/index.xml" rel="self" type="application/rss+xml" />
     
     
   </channel>

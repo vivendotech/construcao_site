@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Introdução do Svelte on Vivendo as tecnologias</title>
-    <link>http://vivendo.tech/dw/svelte/</link>
+    <link>https://vivendotech.github.io/construcao_site/dw/svelte/</link>
     <description>Recent content in Introdução do Svelte on Vivendo as tecnologias</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 06 Nov 2019 21:43:24 -0300</lastBuildDate>
     
-	<atom:link href="http://vivendo.tech/dw/svelte/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://vivendotech.github.io/construcao_site/dw/svelte/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Como importar</title>
-      <link>http://vivendo.tech/dw/svelte/importar/</link>
+      <link>https://vivendotech.github.io/construcao_site/dw/svelte/importar/</link>
       <pubDate>Wed, 06 Nov 2019 21:43:24 -0300</pubDate>
       
-      <guid>http://vivendo.tech/dw/svelte/importar/</guid>
+      <guid>https://vivendotech.github.io/construcao_site/dw/svelte/importar/</guid>
       <description> COmo importar componentes no svelte. Para importar componentes costrua um novo arquivo aonde possua a extenção .svelte (Ex. Componente.svelte). E dentro de outro arquivo que tenha a extensão .svelte coloque a linha
 import Componente from &#39;./Componente.svelte&#39;;  </description>
     </item>
     
     <item>
       <title>Como passar propiedades</title>
-      <link>http://vivendo.tech/dw/svelte/propiedades/</link>
+      <link>https://vivendotech.github.io/construcao_site/dw/svelte/propiedades/</link>
       <pubDate>Wed, 06 Nov 2019 21:43:24 -0300</pubDate>
       
-      <guid>http://vivendo.tech/dw/svelte/propiedades/</guid>
+      <guid>https://vivendotech.github.io/construcao_site/dw/svelte/propiedades/</guid>
       <description> Como passar propiedades Passando propiedades para os componentes. Precisa expor que a variavel é na verdade uma propiedade. Para isso use a linha abaixo:
 export let propiedade = &amp;quot;oi&amp;quot;;  Sendo assim é possivel acessar essas propiedes a partir da prototipação do componente:
 &amp;lt;Componente string={ &amp;quot;hallo123&amp;quot;}/&amp;gt;  É possivel passar funções ? </description>
@@ -34,10 +34,10 @@ export let propiedade = &amp;quot;oi&amp;quot;;  Sendo assim é possivel acessar
     
     <item>
       <title>Introdução</title>
-      <link>http://vivendo.tech/dw/svelte/introducao/</link>
+      <link>https://vivendotech.github.io/construcao_site/dw/svelte/introducao/</link>
       <pubDate>Wed, 06 Nov 2019 21:43:24 -0300</pubDate>
       
-      <guid>http://vivendo.tech/dw/svelte/introducao/</guid>
+      <guid>https://vivendotech.github.io/construcao_site/dw/svelte/introducao/</guid>
       <description>Como instalar o svelte Primeiro é necessário instalar o node.js.
 Após instalar o Node é necessário digitar o comando:
 npx degit sveltejs/template nome_projeto npm install  O -Degit permite baixar arquivos de repositorios compartilhados do git. TRansforma isso em um RAR
@@ -47,10 +47,10 @@ Dissecando as pastas do projeto template criado O que está dentro da pasta &amp
     
     <item>
       <title>Proximos</title>
-      <link>http://vivendo.tech/dw/svelte/proximos/</link>
+      <link>https://vivendotech.github.io/construcao_site/dw/svelte/proximos/</link>
       <pubDate>Wed, 06 Nov 2019 21:43:24 -0300</pubDate>
       
-      <guid>http://vivendo.tech/dw/svelte/proximos/</guid>
+      <guid>https://vivendotech.github.io/construcao_site/dw/svelte/proximos/</guid>
       <description>Tutoria 1 Como inicializar um projeto envolvendo o svelte.
 Tutorial 2 Como importar um componente em outro componente
 Tutorial 3 Como passar propiedades para o componente importado
