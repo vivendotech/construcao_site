@@ -1,7 +1,7 @@
 ---
 title: "Como passar propiedades"
 date: 2019-11-06T21:43:24-03:00
-draft: true
+draft: false
 vivencia: "svelte"
 ---
 

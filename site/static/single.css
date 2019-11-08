@@ -37,3 +37,12 @@ aside {
 
 }
 
+
+footer{
+    display: flex;
+}
+
+a {
+    padding: 10px;
+}
+
