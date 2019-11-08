@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <title>Document</title>
 
-    <link rel="stylesheet" href="/single.css">
+    <link rel="stylesheet" href="{{.Site.BaseURL}}/single.css">
 </head>
 <body>
         <header>
                 
                 <nav class="flex_cont">
                     
-                        <a href="/">Página inicial</a>
-                        <a href="/categorias">Categorias</a>
-                        <a href="/contato">Contato</a>
-                        <a href="/sobre-mim">Sobre mim</a>
+			<a href="{{.Site.BaseURL}}/">Página inicial</a>
+			<a href="{{.Site.BaseURL}}/categorias">Categorias</a>
+			<a href="{{.Site.BaseURL}}/contato">Contato</a>
+			<a href="{{.Site.BaseURL}}/sobre-mim">Sobre mim</a>
                         
                     
                 </nav>
@@ -51,9 +51,9 @@
 
     <footer>
             
-                <a href="/meu-perfil-do-facebook">Facebook</a>
-                <a href="/meu-perfil-do-google-plus">Google Plus</a>
-                <a href="/meu-perfil-do-twitter">Twitter</a>
+	    <a href="{{.Site.BaseURL}}/meu-perfil-do-facebook">Facebook</a>
+	    <a href="{{.Site.BaseURL}}/meu-perfil-do-google-plus">Google Plus</a>
+	    <a href="{{.Site.BaseURL}}/meu-perfil-do-twitter">Twitter</a>
             
     </footer>
 
