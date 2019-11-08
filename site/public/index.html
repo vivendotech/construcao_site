@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+	<meta name="generator" content="Hugo 0.59.1" />
     <meta charset="UTF-8">
     <title>Document</title>
 
@@ -26,17 +27,18 @@
     
     <main class="div_cont">
             <section >
-                    {{ range .Pages }}
+                    
                     <div class="vivencia">
                         <main >
 
-                            {{.Content}}
+                            <p>index dw</p>
+
                         </main>
                     
 
                         <div class="descricao_vivencia">
-                                {{.Title}}
-                                {{.Params.descricao}}
+                                Introdução do Svelte
+                                Esse tutorial mostra os primeiros passos usando o svelte 
                                
     
                         </div>
@@ -46,10 +48,10 @@
                         <div class="item">
                                 
                             <div>
-                                <a href="{{.URL}}">{{.Title}}</a>
+                                <a href="/dw/">Introdução do Svelte</a>
                                 <div class="descricao_curso">
-                                        {{.Params.tempo}}
-                                        {{.Params.descricao}}
+                                        
+                                        Esse tutorial mostra os primeiros passos usando o svelte 
                                 </div>
 
                             </div>
@@ -58,7 +60,7 @@
       
                            
                    </div>
-                   {{end}}
+                   
 
             
 
@@ -81,11 +83,7 @@
 </footer>
 
    
-    <!-- {{ block "main" .}}
-
-
-
-    {{ end }} -->
+    
 
 
 
@@ -94,24 +92,6 @@
 </html>
 
 
-<!-- {{ define "main" }}
 
-       <div class="vivencia">
-                {{ range .Pages }}
-            
-            <ul>
-                <li><a href="{{.URL}}">{{.Title}}</a></li>
-           </ul>
-                {{end}}
-
-       </div>
-       
-
-        {{.Content}}
-
-
-{{ end }}
-   
-         -->
     
     

@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Document</title>
 
-    <link rel="stylesheet" href="/list_vivencias.css">
+    <link rel="stylesheet" href="/list.css">
 </head>
 <body>
 
@@ -26,17 +26,11 @@
     
     <main class="div_cont">
             <section >
-                    {{ range .Pages }}
                     <div class="vivencia">
-                        <main >
-
-                            {{.Content}}
-                        </main>
-                    
 
                         <div class="descricao_vivencia">
-                                {{.Title}}
-                                {{.Params.descricao}}
+                                Tags
+                                
                                
     
                         </div>
@@ -46,21 +40,34 @@
                         <div class="item">
                                 
                             <div>
-                                <a href="{{.URL}}">{{.Title}}</a>
+                                <a href="/tags/tag1/">tag1</a>
                                 <div class="descricao_curso">
-                                        {{.Params.tempo}}
-                                        {{.Params.descricao}}
+                                        
+                                        
                                 </div>
 
                             </div>
                                 
                         </div>
       
-                           
-                   </div>
-                   {{end}}
+                            
+                        <div class="item">
+                                
+                            <div>
+                                <a href="/tags/tag2/">tag2</a>
+                                <div class="descricao_curso">
+                                        
+                                        
+                                </div>
 
+                            </div>
+                                
+                        </div>
+      
+                            
             
+                   </div>
+
 
 
             </section>
@@ -81,11 +88,7 @@
 </footer>
 
    
-    <!-- {{ block "main" .}}
-
-
-
-    {{ end }} -->
+    
 
 
 
@@ -94,24 +97,6 @@
 </html>
 
 
-<!-- {{ define "main" }}
 
-       <div class="vivencia">
-                {{ range .Pages }}
-            
-            <ul>
-                <li><a href="{{.URL}}">{{.Title}}</a></li>
-           </ul>
-                {{end}}
-
-       </div>
-       
-
-        {{.Content}}
-
-
-{{ end }}
-   
-         -->
     
     

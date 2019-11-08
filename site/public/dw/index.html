@@ -26,17 +26,18 @@
     
     <main class="div_cont">
             <section >
-                    {{ range .Pages }}
+                    
                     <div class="vivencia">
                         <main >
 
-                            {{.Content}}
+                            <p>oi sou o index do python</p>
+
                         </main>
                     
 
                         <div class="descricao_vivencia">
-                                {{.Title}}
-                                {{.Params.descricao}}
+                                Introdução ao python
+                                Esse tutorial mostra os primeiros passos do python 
                                
     
                         </div>
@@ -46,10 +47,10 @@
                         <div class="item">
                                 
                             <div>
-                                <a href="{{.URL}}">{{.Title}}</a>
+                                <a href="/dw/python/">Introdução ao python</a>
                                 <div class="descricao_curso">
-                                        {{.Params.tempo}}
-                                        {{.Params.descricao}}
+                                        
+                                        Esse tutorial mostra os primeiros passos do python 
                                 </div>
 
                             </div>
@@ -58,7 +59,40 @@
       
                            
                    </div>
-                   {{end}}
+                   
+                    <div class="vivencia">
+                        <main >
+
+                            <p>index introducao do svelte</p>
+
+                        </main>
+                    
+
+                        <div class="descricao_vivencia">
+                                Introdução do Svelte
+                                Esse tutorial mostra os primeiros passos usando o svelte 
+                               
+    
+                        </div>
+                           
+
+                        
+                        <div class="item">
+                                
+                            <div>
+                                <a href="/dw/svelte/">Introdução do Svelte</a>
+                                <div class="descricao_curso">
+                                        
+                                        Esse tutorial mostra os primeiros passos usando o svelte 
+                                </div>
+
+                            </div>
+                                
+                        </div>
+      
+                           
+                   </div>
+                   
 
             
 
@@ -81,11 +115,7 @@
 </footer>
 
    
-    <!-- {{ block "main" .}}
-
-
-
-    {{ end }} -->
+    
 
 
 
@@ -94,24 +124,6 @@
 </html>
 
 
-<!-- {{ define "main" }}
 
-       <div class="vivencia">
-                {{ range .Pages }}
-            
-            <ul>
-                <li><a href="{{.URL}}">{{.Title}}</a></li>
-           </ul>
-                {{end}}
-
-       </div>
-       
-
-        {{.Content}}
-
-
-{{ end }}
-   
-         -->
     
     
